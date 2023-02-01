@@ -27,7 +27,7 @@ jobs:
           restore-keys: |
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: stable
       - id: checkout
@@ -50,7 +50,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:2.14.0
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: "2.14.0"
       - id: checkout
@@ -134,7 +134,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:dev
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: dev
       - id: checkout
@@ -218,7 +218,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:2.14.0
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: "2.14.0"
       - id: checkout
@@ -277,7 +277,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:2.14.0
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: "2.14.0"
       - id: checkout
@@ -309,7 +309,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:2.14.0
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: "2.14.0"
       - id: checkout
@@ -341,7 +341,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:2.14.0
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: "2.14.0"
       - id: checkout
@@ -373,7 +373,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:dev
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: dev
       - id: checkout
@@ -432,7 +432,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:dev
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: dev
       - id: checkout
@@ -464,7 +464,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:dev
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: dev
       - id: checkout
@@ -496,7 +496,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:dev
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: dev
       - id: checkout
@@ -528,7 +528,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:2.14.0
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: "2.14.0"
       - id: checkout
@@ -586,7 +586,7 @@ jobs:
             os:ubuntu-latest;pub-cache-hosted;sdk:dev
             os:ubuntu-latest;pub-cache-hosted
             os:ubuntu-latest
-      - uses: dart-lang/setup-dart@v1.3
+      - uses: dart-lang/setup-dart@v1.4
         with:
           sdk: dev
       - id: checkout
